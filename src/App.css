@@ -1,0 +1,119 @@
+.homePage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+/* 4ECCA3  DBEDF3 */
+.formContent {
+  background: #393e46;
+  width: 450px;
+  border-radius: 10px;
+  max-width: 90%;
+  padding: 20px;
+}
+.inputGang {
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.logoImg {
+  height: 90px;
+  margin-bottom: 20px;
+}
+.inputBox {
+  padding: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+}
+.btn-join,
+.leaveBtn {
+  background: #4ecca3;
+  width: 100px;
+  margin: auto;
+}
+.btn-join:hover,
+.leaveBtn:hover {
+  background: #4aed88;
+}
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.createNewRoom {
+  color: #4ecca3;
+  text-decoration: none;
+  border-bottom: 1px solid #4ecca3;
+  transition: all 0.3s ease-in-out;
+}
+.createNewRoom:hover {
+  color: #4aed88;
+}
+
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
+}
+.left-part {
+  background: #2c333c;
+  color: #fff;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.left-part-inner {
+  flex: 1;
+}
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  margin-top: 8px;
+}
+
+.editor-logo {
+  border-bottom: 1px solid #b5b3b3;
+  padding-bottom: 10px;
+}
+.editor-logoImg {
+  height: 78px;
+}
+.leaveBtn {
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+}
+.CodeMirror {
+  /* height: 100%; */
+  min-height: calc(100vh - 20px);
+  overflow: hidden;
+  font-size: 21px;
+  line-height: 1.5;
+  padding-top: 20px;
+}
