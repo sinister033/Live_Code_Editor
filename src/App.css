@@ -5,6 +5,7 @@
   justify-content: center;
   color: white;
 }
+
 /* 4ECCA3  DBEDF3 */
 .formContent {
   background: #393e46;
@@ -13,18 +14,34 @@
   max-width: 90%;
   padding: 20px;
 }
+
 .inputGang {
   display: flex;
   flex-direction: column;
 }
+
 .mainLabel {
   margin-top: 0px;
   margin-bottom: 20px;
 }
+
 .logoImg {
   height: 90px;
   margin-bottom: 20px;
 }
+
+.themes {
+  width: 190px;
+}
+
+.select {
+  width: 130px;
+}
+
+.themes ::-webkit-scrollbar {
+  width: 0;
+}
+
 .inputBox {
   padding: 10px;
   outline: none;
@@ -34,6 +51,7 @@
   font-size: 16px;
   font-weight: bold;
 }
+
 .btn {
   border: none;
   padding: 10px;
@@ -43,27 +61,50 @@
   transition: all 0.5s ease-in-out;
   font-weight: bold;
 }
+
 .btn-join,
 .leaveBtn {
   background: #4ecca3;
   width: 100px;
+  color: white;
   margin: auto;
 }
+
 .btn-join:hover,
 .leaveBtn:hover {
   background: #4aed88;
 }
+
+.runBtn {
+  text-align: center;
+  background: #4ecca3;
+  color: #fff;
+  font-weight: bold;
+  width: 30px;
+  border-color: none;
+  border-radius: 5px;
+  padding: 7px 25px;
+  transition: ease-in-out 0.3s;
+}
+
+.runBtn:hover {
+  background: #4aed88;
+  cursor: pointer;
+}
+
 .createInfo {
   margin: 0 auto;
   margin-top: 20px;
   font-size: 16px;
 }
+
 .createNewRoom {
   color: #4ecca3;
   text-decoration: none;
   border-bottom: 1px solid #4ecca3;
   transition: all 0.3s ease-in-out;
 }
+
 .createNewRoom:hover {
   color: #4aed88;
 }
@@ -73,6 +114,7 @@
   grid-template-columns: 250px 1fr;
   height: 100vh;
 }
+
 .left-part {
   background: #2c333c;
   color: #fff;
@@ -80,40 +122,146 @@
   display: flex;
   flex-direction: column;
 }
+
 .left-part-inner {
   flex: 1;
 }
+
 .clients-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 22px;
 }
+
 .client {
   display: flex;
   flex-direction: column;
 }
+
 .username {
   margin-top: 8px;
+}
+
+.editorWrapper {
+  display: flex;
+}
+
+.editor {
+  width: 80%;
+}
+
+.inputOutput {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ffff;
+}
+
+.inputContainer {
+  /* width: 100%; */
+  margin: 2px auto;
+  text-align: center;
+}
+
+.inputContainer p {
+  font-size: small;
+  /* padding: 1px 0; */
+  color: #fff;
+  font-weight: bold;
+  margin: 4px auto;
+}
+
+/* 
+.inputContainer textarea,
+.outputContainer textarea { */
+textarea {
+  width: 240px;
+  padding: 8px 10px;
+  border: none;
+  height: 260px;
+  background-color: #2c333c;
+  color: white;
+  /* padding: 10px 0; */
+}
+.outputContainer textarea{
+  height: 282px;
+}
+
+.outputContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.outputContainer p {
+  font-size: small;
+  color: #fff;
+  font-weight: bold;
+  margin: 5px auto;
+  /* padding: 1px 0; */
+}
+
+/* .inputContainer textarea:focus,
+.outputContainer */
+textarea:focus {
+  outline: none;
+}
+
+/* .inputContainer textarea::-webkit-scrollbar,
+.outputContainer  */
+textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.notError {
+  color: greenyellow;
+  font-size: 14px;
 }
 
 .editor-logo {
   border-bottom: 1px solid #b5b3b3;
   padding-bottom: 10px;
 }
+
 .editor-logoImg {
   height: 78px;
 }
+
 .leaveBtn {
   margin-top: 20px;
   width: 100%;
   font-weight: bold;
 }
+
+.topBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  background: #2c333c;
+  color: black;
+  border-bottom: 1px solid #b5b3b3;
+}
+
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
 .CodeMirror {
   /* height: 100%; */
-  min-height: calc(100vh - 20px);
+  min-height: calc(100vh - 80px);
   overflow: hidden;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.5;
   padding-top: 20px;
+}
+.CodeMirror-vscrollbar{
+  width: 0;
 }
