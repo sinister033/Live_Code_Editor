@@ -3,7 +3,7 @@ import Client from "../components/Client";
 import Editor from "../components/Editor";
 import { initSocket } from "../socket";
 import ACTIONS from "../utils/Actions";
-import Select from "react-select";
+import Select from 'react-select'
 import axios from "axios";
 import "codemirror/theme/ayu-mirage.css";
 import "codemirror/theme/nord.css";
@@ -126,9 +126,7 @@ const EditorPage = () => {
     };
   }, []);
   useEffect(() => {
-
     outputHandler();
-
   }, [output]);
 
   let outputHandler = () => {
