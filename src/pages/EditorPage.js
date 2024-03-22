@@ -3,7 +3,7 @@ import Client from "../components/Client";
 import Editor from "../components/Editor";
 import { initSocket } from "../socket";
 import ACTIONS from "../utils/Actions";
-import Select from 'react-select'
+import Select from "react-select";
 import axios from "axios";
 import "codemirror/theme/ayu-mirage.css";
 import "codemirror/theme/nord.css";
@@ -342,6 +342,7 @@ const EditorPage = () => {
           <div className="select">
             <Select
               options={languages}
+              defaultValue={languages[1]}
               value={{ id: selectedLanguage.id, label: selectedLanguage.label }}
               onChange={(lang) => {
                 setSelectedLanguage(lang);
