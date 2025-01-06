@@ -1,5 +1,41 @@
-Live code editor for C++ is a cutting-edge tool designed for  coders who need a fast and reliable platform to write  code. This editor is built using Node.js, React.js, and Socket.io, and offers a sleek and user-friendly interface that makes coding easier and more efficient.
+# Live Code Editor
 
-With real-time collaboration capabilities, users can code together in real-time, sharing their screen and working on the same project. This is made possible through the use of socket.io, which enables fast and seamless communication between users.The editor also supports syntax highlighting and code autocompletion; this is possible using Codemirror, an external package in npm.
+Live Code Editor is a cutting-edge platform built using Node.js, React.js, and Socket.io. It offers real-time collaboration, intuitive design, syntax highlighting for an efficient coding experience. This live code editor has everything needed to write and execute code seamlessly.
 
-Start Writing: [Link](https://live-code-editor.onrender.com/)
+## Features
+
+- Real-time collaboration
+- Intuitive design
+- Syntax highlighting
+
+## Use Case
+
+The Live Code Editor is ideal for:
+- Developers who need an efficient platform for writing and executing code in real-time.
+- Teams working on collaborative coding projects.
+- Educational environments where instructors and students can code together and see changes instantly.
+- Any scenario requiring immediate feedback and collaboration on code.
+
+## Deployed URL
+Start Coding: [Link](https://live-code-editor.onrender.com/)
+
+## Technologies Used
+
+- **JavaScript**: 81%
+- **CSS**: 13.3%
+- **HTML**: 5.7%
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sinister033/Live_Code_Editor.git
+2. Navigate to the project directory:
+   ```bash
+   cd Live_Code_Editor
+3. Install dependencies:
+   ```bash
+    npm install
+4. Start the development server:
+   ```bash
+    npm start
