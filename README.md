@@ -12,7 +12,7 @@ Live Code Editor is a cutting-edge platform built using Node.js, React.js, and S
 
 The Live Code Editor is ideal for:
 - Developers who need an efficient platform for writing and executing code in real-time.
-- Teams working on collaborative coding projects.
+- Teams working on collaborative coding problem.
 - Educational environments where instructors and students can code together and see changes instantly.
 - Any scenario requiring immediate feedback and collaboration on code.
 
